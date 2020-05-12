@@ -1,0 +1,2 @@
+mlagents-learn ./config/trainer_config.yaml --env=./Env/ship1v1/ship1v1 --run-id=ship_1v1 --load --train  --no-graphics
+mlagents-learn ./config/trainer_config.yaml --env=./Env/ship1v1_two_brain_one_scene/ship1v1_two_brain_one_scene --run-id=ship1v1_two_brain_one_scene --load --train  --no-graphics
